@@ -1,0 +1,1324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Issues report of ALMDemoProjectForTaskManagernew</title>
+  <link href="issuesreport_files/sonar.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/x-icon" href="issuesreport_files/favicon.ico">
+  <script type="text/javascript" src="issuesreport_files/jquery.min.js"></script>
+  <script type="text/javascript">
+    var issuesPerResource = [
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+          {'k': '0158D9077614F40FF0', 'r': 'Rphp:S105', 'l': 0, 'new': true, 's': 'minor'},
+          {'k': '0158D907761AF40FF1', 'r': 'Rphp:S125', 'l': 14, 'new': true, 's': 'major'},
+          {'k': '0158D907761AF40FF2', 'r': 'Rphp:S125', 'l': 16, 'new': true, 's': 'major'},
+          {'k': '0158D907761AF40FF3', 'r': 'Rphp:S125', 'l': 19, 'new': true, 's': 'major'},
+          {'k': '0158D907761AF40FF4', 'r': 'Rphp:S125', 'l': 22, 'new': true, 's': 'major'},
+          {'k': '0158D907761AF40FF5', 'r': 'Rphp:S125', 'l': 27, 'new': true, 's': 'major'}
+      ]
+      ,
+      [
+          {'k': '0158D9077637F40FF6', 'r': 'Rphp:S105', 'l': 0, 'new': true, 's': 'minor'},
+          {'k': '0158D9077637F40FF7', 'r': 'Rphp:S101', 'l': 4, 'new': true, 's': 'minor'},
+          {'k': '0158D9077637F40FF8', 'r': 'Rphp:S125', 'l': 14, 'new': true, 's': 'major'},
+          {'k': '0158D9077637F40FF9', 'r': 'Rphp:S125', 'l': 16, 'new': true, 's': 'major'},
+          {'k': '0158D9077637F40FFA', 'r': 'Rphp:S125', 'l': 19, 'new': true, 's': 'major'},
+          {'k': '0158D9077637F40FFB', 'r': 'Rphp:S125', 'l': 22, 'new': true, 's': 'major'},
+          {'k': '0158D9077637F40FFC', 'r': 'Rphp:S125', 'l': 27, 'new': true, 's': 'major'}
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      ,
+      [
+      ]
+      
+    ];
+    var nbResources = 89;
+    var separators = new Array();
+
+    function showLine(fileIndex, lineId) {
+      var elt = $('#' + fileIndex + 'L' + lineId);
+      if (elt != null) {
+        elt.show();
+      }
+      elt = $('#' + fileIndex + 'LV' + lineId);
+      if (elt != null) {
+        elt.show();
+      }
+    }
+
+    /* lineIds must be sorted */
+    function showLines(fileIndex, lineIds) {
+      var lastSeparatorId = 9999999;
+      for (var lineIndex = 0; lineIndex < lineIds.length; lineIndex++) {
+        var lineId = lineIds[lineIndex];
+        if (lineId > 0) {
+          if (lineId > lastSeparatorId) {
+            var separator = $('#' + fileIndex + 'S' + lastSeparatorId);
+            if (separator != null) {
+              separator.addClass('visible');
+              separators.push(separator);
+            }
+          }
+
+          for (var i = -2; i < 3; ++i) {
+            showLine(fileIndex, lineId + i);
+          }
+          lastSeparatorId = lineId + 2;
+        }
+      }
+    }
+     function hideAll() {
+       $('tr.row').hide();
+       $('div.issue').hide();
+       for (var separatorIndex = 0; separatorIndex < separators.length; separatorIndex++) {
+         separators[separatorIndex].removeClass('visible');
+       }
+       separators.length = 0;
+       $('.sources td.ko').removeClass('ko');
+     }
+
+     function showIssues(fileIndex, issues) {
+       $.each(issues, function(index, issue) {
+         $('#' + issue['k']).show();
+         $('#' + fileIndex + 'L' + issue['l'] + ' td.line').addClass('ko');
+       });
+       var showResource = issues.length > 0;
+       if (showResource) {
+         $('#resource-' + fileIndex).show();
+       } else {
+         $('#resource-' + fileIndex).hide();
+       }
+     }
+
+
+    function refreshFilters(updateSelect) {
+      var onlyNewIssues = true;
+
+      if (updateSelect) {
+        populateSelectFilter(onlyNewIssues);
+      }
+      var ruleFilter = $('#rule_filter').val();
+
+      hideAll();
+      if (onlyNewIssues) {
+        $('.all').addClass('all-masked');
+      } else {
+        $('.all').removeClass('all-masked');
+      }
+      for (var resourceIndex = 0; resourceIndex < nbResources; resourceIndex++) {
+        var filteredIssues = $.grep(issuesPerResource[resourceIndex], function(v) {
+              return (!onlyNewIssues || v['new']) && (ruleFilter == '' || v['r'] == ruleFilter || v['s'] == ruleFilter);
+            }
+        );
+
+        var linesToDisplay = $.map(filteredIssues, function(v, i) {
+          return v['l'];
+        });
+
+        linesToDisplay.sort();// the showLines() requires sorted ids
+        showLines(resourceIndex, linesToDisplay);
+        showIssues(resourceIndex, filteredIssues);
+      }
+    }
+
+
+    var severityFilter = [
+       { "key": "major",
+         "label": "Major",
+         "total": 37,
+         "newtotal": 10
+       },
+       { "key": "minor",
+         "label": "Minor",
+         "total": 146,
+         "newtotal": 3
+       },
+       { "key": "critical",
+         "label": "Critical",
+         "total": 62,
+         "newtotal": 0
+       }
+    ];
+
+    var ruleFilter = [
+       { "key": "common-php:DuplicatedBlocks",
+         "label": "Source files should not have any duplicated blocks",
+         "total": 4,
+         "newtotal": 0
+       },
+       { "key": "php:S105",
+         "label": "Tabulation characters should not be used",
+         "total": 89,
+         "newtotal": 2
+       },
+       { "key": "php:S1192",
+         "label": "String literals should not be duplicated",
+         "total": 59,
+         "newtotal": 0
+       },
+       { "key": "php:S1481",
+         "label": "Unused local variables should be removed",
+         "total": 49,
+         "newtotal": 0
+       },
+       { "key": "php:S125",
+         "label": "Sections of code should not be \"commented out\"",
+         "total": 17,
+         "newtotal": 10
+       },
+       { "key": "php:S1125",
+         "label": "Boolean literals should not be redundant",
+         "total": 3,
+         "newtotal": 0
+       },
+       { "key": "php:S1116",
+         "label": "Empty statements should be removed",
+         "total": 2,
+         "newtotal": 0
+       },
+       { "key": "php:S101",
+         "label": "Class names should comply with a naming convention",
+         "total": 1,
+         "newtotal": 1
+       },
+       { "key": "php:S1172",
+         "label": "Unused function parameters should be removed",
+         "total": 12,
+         "newtotal": 0
+       },
+       { "key": "php:S108",
+         "label": "Nested blocks of code should not be left empty",
+         "total": 4,
+         "newtotal": 0
+       },
+       { "key": "php:S121",
+         "label": "Control structures should use curly braces",
+         "total": 3,
+         "newtotal": 0
+       },
+       { "key": "php:S1488",
+         "label": "Local Variables should not be declared and then immediately returned or thrown",
+         "total": 2,
+         "newtotal": 0
+       }
+    ].sort(function(a, b) {
+        var x = a.label; var y = b.label;
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+
+    function populateSelectFilter(onlyNewIssues) {
+       var ruleFilterSelect = $('#rule_filter');
+       ruleFilterSelect.empty().append(function() {
+         var output = '';
+         output += '<option value="" selected>Filter by:</option>';
+         output += '<optgroup label="Severity">';
+         $.each(severityFilter, function(key, value) {
+           if ((!onlyNewIssues && value.total > 0) || value.newtotal > 0) {
+             output += '<option value="' + value.key + '">' + value.label + ' (' + (onlyNewIssues ? value.newtotal : value.total) + ')</option>';
+           }
+         });
+         output += '<optgroup label="Rule">';
+         $.each(ruleFilter, function(key, value) {
+           if ((!onlyNewIssues && value.total > 0) || value.newtotal > 0) {
+             output += '<option value="R' + value.key + '">' + value.label + ' (' + (onlyNewIssues ? value.newtotal : value.total) + ')</option>';
+           }
+         });
+         return output;
+       });
+    }
+  </script>
+</head>
+<body>
+<div id="reportHeader">
+  <div id="logo"><img src="issuesreport_files/sonarqube-24x100.png" alt="SonarQube"/></div>
+  <div class="title">Issues Report</div>
+  <div class="subtitle">ALMDemoProjectForTaskManagernew - 7 Dec, 2016 4:54:36 PM</div>
+</div>
+
+<div id="content">
+
+  <div class="banner">Light report: only new issues are displayed</div>
+
+  <div id="summary">
+  <table width="100%">
+    <tbody>
+    <tr>
+      <td align="center" width="50%">
+        <h3>New issues</h3>
+        <span class="big worst">13</span>
+      </td>
+      <td align="center" width="50%">
+        <h3>Resolved issues</h3>
+        <span class="big">0</span>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <br/>
+
+  <div class="banner">
+
+    <select id="rule_filter" onchange="refreshFilters(false)">
+    </select>
+  </div>
+
+  <div id="summary-per-file">
+  <table width="100%" class="data " id="resource-28">
+    <thead>
+    <tr class="total">
+      <th align="left" colspan="2" nowrap>
+        <div class="file_title">
+          <img src="issuesreport_files/FIL.png" title="ALMDemoProjectForTaskManagernew:app/controllers/testcon.php"/>
+          <a href="#" onclick="$('.resource-details-28').toggleClass('masked'); return false;" style="color: black" title="ALMDemoProjectForTaskManagernew:app/controllers/testcon.php">testcon.php</a>
+        </div>
+      </th>
+      <th align="right" width="1%" nowrap class="resource-details-28">
+          <span class="worst" id="new-total">6</span>
+        <br/>New issues
+      </th>
+    </tr>
+    </thead>
+    <tbody class="resource-details-28">
+      <tr class="globalIssues">
+        <td colspan="3">
+            <div class="issue" id="0158D9077614F40FF0">
+              <div class="vtitle">
+                <i class="icon-severity-minor"></i>
+                <span class="rulename">Replace all tab characters in this file by sequences of white-spaces.</span>
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+
+                <span class="issue_date">
+                    NEW
+                </span>
+                
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+                
+                <span class="rule_key">php:S105</span>
+                
+              </div>
+              <div class="discussionComment">
+              Tabulation characters should not be used
+              </div>
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <table class="sources" border="0" cellpadding="0" cellspacing="0">
+                <tr id="28L1" class="row">
+                  <td class="lid ">1</td>
+                  <td class="line ">
+                    <pre>&lt;?php</pre>
+                  </td>
+                </tr>
+                <tr id="28S1" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L2" class="row">
+                  <td class="lid ">2</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="28S2" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L12" class="row">
+                  <td class="lid ">12</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="28S12" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L13" class="row">
+                  <td class="lid ">13</td>
+                  <td class="line ">
+                    <pre>		// Get the emails to invite</pre>
+                  </td>
+                </tr>
+                <tr id="28S13" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L14" class="row">
+                  <td class="lid ">14</td>
+                  <td class="line ">
+                    <pre>//		$users 		=	Beta::whereStatus(0)-&gt;lists('email');</pre>
+                  </td>
+                </tr>
+                <tr id="28S14" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="28LV14" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D907761AF40FF1">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="28L15" class="row">
+                  <td class="lid ">15</td>
+                  <td class="line ">
+                    <pre>//		// At this email always for testing</pre>
+                  </td>
+                </tr>
+                <tr id="28S15" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L16" class="row">
+                  <td class="lid ">16</td>
+                  <td class="line ">
+                    <pre>//		$users[]	=	&quot;jefrycruz88@gmail.com&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="28S16" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="28LV16" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D907761AF40FF2">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="28L17" class="row">
+                  <td class="lid ">17</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="28S17" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L18" class="row">
+                  <td class="lid ">18</td>
+                  <td class="line ">
+                    <pre>		// Set the all statuses to 0</pre>
+                  </td>
+                </tr>
+                <tr id="28S18" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L19" class="row">
+                  <td class="lid ">19</td>
+                  <td class="line ">
+                    <pre>//		Beta::whereStatus(0)-&gt;update(array('status' =&gt; 1));</pre>
+                  </td>
+                </tr>
+                <tr id="28S19" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="28LV19" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D907761AF40FF3">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="28L20" class="row">
+                  <td class="lid ">20</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="28S20" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L21" class="row">
+                  <td class="lid ">21</td>
+                  <td class="line ">
+                    <pre>		// Send the emails to all the users that have not been invited yet</pre>
+                  </td>
+                </tr>
+                <tr id="28S21" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L22" class="row">
+                  <td class="lid ">22</td>
+                  <td class="line ">
+                    <pre>//		for ($i=0; $i &lt; count($users) ; $i++) {</pre>
+                  </td>
+                </tr>
+                <tr id="28S22" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="28LV22" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D907761AF40FF4">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="28L23" class="row">
+                  <td class="lid ">23</td>
+                  <td class="line ">
+                    <pre>//			sendBetaInviteEmail( $users[$i]);</pre>
+                  </td>
+                </tr>
+                <tr id="28S23" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L24" class="row">
+                  <td class="lid ">24</td>
+                  <td class="line ">
+                    <pre>//			echo $users[$i] . &quot;&lt;br&gt;&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="28S24" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L25" class="row">
+                  <td class="lid ">25</td>
+                  <td class="line ">
+                    <pre>//		}</pre>
+                  </td>
+                </tr>
+                <tr id="28S25" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L26" class="row">
+                  <td class="lid ">26</td>
+                  <td class="line ">
+                    <pre>//</pre>
+                  </td>
+                </tr>
+                <tr id="28S26" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L27" class="row">
+                  <td class="lid ">27</td>
+                  <td class="line ">
+                    <pre>//		return &quot;All the emails above have been sent a beta invite.&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="28S27" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="28LV27" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D907761AF40FF5">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="28L28" class="row">
+                  <td class="lid ">28</td>
+                  <td class="line ">
+                    <pre>	}</pre>
+                  </td>
+                </tr>
+                <tr id="28S28" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="28L29" class="row">
+                  <td class="lid ">29</td>
+                  <td class="line ">
+                    <pre>}</pre>
+                  </td>
+                </tr>
+                <tr id="28S29" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="100%" class="data " id="resource-29">
+    <thead>
+    <tr class="total">
+      <th align="left" colspan="2" nowrap>
+        <div class="file_title">
+          <img src="issuesreport_files/FIL.png" title="ALMDemoProjectForTaskManagernew:app/controllers/testcontroller.php"/>
+          <a href="#" onclick="$('.resource-details-29').toggleClass('masked'); return false;" style="color: black" title="ALMDemoProjectForTaskManagernew:app/controllers/testcontroller.php">testcontroller.php</a>
+        </div>
+      </th>
+      <th align="right" width="1%" nowrap class="resource-details-29">
+          <span class="worst" id="new-total">7</span>
+        <br/>New issues
+      </th>
+    </tr>
+    </thead>
+    <tbody class="resource-details-29">
+      <tr class="globalIssues">
+        <td colspan="3">
+            <div class="issue" id="0158D9077637F40FF6">
+              <div class="vtitle">
+                <i class="icon-severity-minor"></i>
+                <span class="rulename">Replace all tab characters in this file by sequences of white-spaces.</span>
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+
+                <span class="issue_date">
+                    NEW
+                </span>
+                
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+                
+                <span class="rule_key">php:S105</span>
+                
+              </div>
+              <div class="discussionComment">
+              Tabulation characters should not be used
+              </div>
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <table class="sources" border="0" cellpadding="0" cellspacing="0">
+                <tr id="29L1" class="row">
+                  <td class="lid ">1</td>
+                  <td class="line ">
+                    <pre>&lt;?php</pre>
+                  </td>
+                </tr>
+                <tr id="29S1" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L2" class="row">
+                  <td class="lid ">2</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="29S2" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L3" class="row">
+                  <td class="lid ">3</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="29S3" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L4" class="row">
+                  <td class="lid ">4</td>
+                  <td class="line ">
+                    <pre>class testController extends \BaseController {</pre>
+                  </td>
+                </tr>
+                <tr id="29S4" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="29LV4" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D9077637F40FF7">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Rename class &quot;testController&quot; to match the regular expression ^[A-Z][a-zA-Z0-9]*$.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S101</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Class names should comply with a naming convention
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="29L5" class="row">
+                  <td class="lid ">5</td>
+                  <td class="line ">
+                    <pre>	</pre>
+                  </td>
+                </tr>
+                <tr id="29S5" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L6" class="row">
+                  <td class="lid ">6</td>
+                  <td class="line ">
+                    <pre>	/**</pre>
+                  </td>
+                </tr>
+                <tr id="29S6" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L12" class="row">
+                  <td class="lid ">12</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="29S12" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L13" class="row">
+                  <td class="lid ">13</td>
+                  <td class="line ">
+                    <pre>		// Get the emails to invite</pre>
+                  </td>
+                </tr>
+                <tr id="29S13" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L14" class="row">
+                  <td class="lid ">14</td>
+                  <td class="line ">
+                    <pre>//		$users 		=	Beta::whereStatus(0)-&gt;lists('email');</pre>
+                  </td>
+                </tr>
+                <tr id="29S14" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="29LV14" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D9077637F40FF8">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="29L15" class="row">
+                  <td class="lid ">15</td>
+                  <td class="line ">
+                    <pre>//		// At this email always for testing</pre>
+                  </td>
+                </tr>
+                <tr id="29S15" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L16" class="row">
+                  <td class="lid ">16</td>
+                  <td class="line ">
+                    <pre>//		$users[]	=	&quot;jefrycruz88@gmail.com&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="29S16" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="29LV16" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D9077637F40FF9">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="29L17" class="row">
+                  <td class="lid ">17</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="29S17" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L18" class="row">
+                  <td class="lid ">18</td>
+                  <td class="line ">
+                    <pre>		// Set the all statuses to 0</pre>
+                  </td>
+                </tr>
+                <tr id="29S18" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L19" class="row">
+                  <td class="lid ">19</td>
+                  <td class="line ">
+                    <pre>//		Beta::whereStatus(0)-&gt;update(array('status' =&gt; 1));</pre>
+                  </td>
+                </tr>
+                <tr id="29S19" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="29LV19" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D9077637F40FFA">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="29L20" class="row">
+                  <td class="lid ">20</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="29S20" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L21" class="row">
+                  <td class="lid ">21</td>
+                  <td class="line ">
+                    <pre>		// Send the emails to all the users that have not been invited yet</pre>
+                  </td>
+                </tr>
+                <tr id="29S21" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L22" class="row">
+                  <td class="lid ">22</td>
+                  <td class="line ">
+                    <pre>//		for ($i=0; $i &lt; count($users) ; $i++) {</pre>
+                  </td>
+                </tr>
+                <tr id="29S22" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="29LV22" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D9077637F40FFB">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="29L23" class="row">
+                  <td class="lid ">23</td>
+                  <td class="line ">
+                    <pre>//			sendBetaInviteEmail( $users[$i]);</pre>
+                  </td>
+                </tr>
+                <tr id="29S23" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L24" class="row">
+                  <td class="lid ">24</td>
+                  <td class="line ">
+                    <pre>//			echo $users[$i] . &quot;&lt;br&gt;&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="29S24" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L25" class="row">
+                  <td class="lid ">25</td>
+                  <td class="line ">
+                    <pre>//		}</pre>
+                  </td>
+                </tr>
+                <tr id="29S25" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L26" class="row">
+                  <td class="lid ">26</td>
+                  <td class="line ">
+                    <pre>//</pre>
+                  </td>
+                </tr>
+                <tr id="29S26" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L27" class="row">
+                  <td class="lid ">27</td>
+                  <td class="line ">
+                    <pre>//		return &quot;All the emails above have been sent a beta invite.&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="29S27" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="29LV27" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0158D9077637F40FFC">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this commented out code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">php:S125</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Sections of code should not be &quot;commented out&quot;
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="29L28" class="row">
+                  <td class="lid ">28</td>
+                  <td class="line ">
+                    <pre>	}</pre>
+                  </td>
+                </tr>
+                <tr id="29S28" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="29L29" class="row">
+                  <td class="lid ">29</td>
+                  <td class="line ">
+                    <pre>}</pre>
+                  </td>
+                </tr>
+                <tr id="29S29" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+<script type="text/javascript">
+  $(function() {
+    refreshFilters(true);
+  });
+</script>
+</body>
+</html>
