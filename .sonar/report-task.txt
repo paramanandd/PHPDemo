@@ -1,5 +1,5 @@
 projectKey=Development
 serverUrl=http://172.27.59.57:9080/sonar
 dashboardUrl=http://172.27.59.57:9080/sonar/dashboard/index/Development
-ceTaskId=AVjZHqGWwxHhf42OzlfC
-ceTaskUrl=http://172.27.59.57:9080/sonar/api/ce/task?id=AVjZHqGWwxHhf42OzlfC
+ceTaskId=AVjZXY2iwxHhf42OzlfK
+ceTaskUrl=http://172.27.59.57:9080/sonar/api/ce/task?id=AVjZXY2iwxHhf42OzlfK
